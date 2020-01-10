@@ -1,4 +1,11 @@
 
+
+for (i = 0; i < 5; i++){
+    setTimeout(()=>console.log(`${i} seg`, 1000 * i))
+}
+
+
+/*
 const CANT_DIAS = 1
 
 var temporizador = {
@@ -18,7 +25,8 @@ for(var i= CANT_DIAS -1; i >= 0; i--){
             for(var i4= 59; i4 >= 0; i4--){
                 
                 temporizador.segundos = i4
-                console.log(`Días: ${temporizador.dias} horas: ${temporizador.horas} minutos: ${temporizador.minutos} segundos: ${temporizador.segundos}`)
+                setTimeout(()=>  console.log(`Días: ${temporizador.dias} horas: ${temporizador.horas} minutos: ${temporizador.minutos} segundos: ${temporizador.segundos}`), 1000 * i4)
+               
             }
             
             
@@ -31,7 +39,7 @@ for(var i= CANT_DIAS -1; i >= 0; i--){
 }
 
 
-
+*/
 
 
 
